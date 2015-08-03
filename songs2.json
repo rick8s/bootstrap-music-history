@@ -1,0 +1,45 @@
+{
+	"songs": 
+	[
+		{
+			"title": "Save Me From Myself",
+			"artist": "Christina Aquilera",
+			"album": "Back To Basics",
+			"genre": "Contemporary R&B"
+
+			},
+		{
+
+			"title": "Out Of The Woods",
+			"artist": "Taylor Swift",
+			"album":  "1989",
+			"genre": "Synthpop"
+
+			},
+
+		{
+			"title": "Doing The Best I Can",
+			"artist": "Stevie Nicks",
+			"album": "The Other Side of The Mirror",
+			"genre": "Soft Rock"
+
+			},
+
+		{	
+			"title": "Unapologetic Bitch",
+			"artist": "Madonna",
+			"album": "Rebel Heart",
+			"genre": "Pop"
+
+			},
+
+		{
+			"title": "We've Got Tonight",
+			"artist": "Bob Seger",
+			"album": "Ultimate Hits: Rock and Roll Never Forgets",
+			"genre": "Rock"
+
+		}
+
+	]
+}
