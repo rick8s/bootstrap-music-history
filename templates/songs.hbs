@@ -1,0 +1,21 @@
+<div class="mySongs">
+  {{#each songs}}
+  <div class='song'>
+    <p> {{title}} is from the album {{album}}.</p>
+    <p> It was released by the artist {{artist}} in {{year}} under the genre {{genre}}.</p>
+      <button id='deleteButton' class='remove'>Delete Song</button>
+  </div>
+  {{/each}}
+</div>
+  
+
+
+
+
+{{!-- <p> {{title}} </p>
+      <ul>
+        <li>{{artist}}</li>
+        <li>{{album}}</li>
+        <li>{{genre}}</li>
+        <li>{{year}}</li>
+      </ul> --}}

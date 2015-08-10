@@ -1,118 +1,81 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta charset="utf-8">
-  <title>Nashville Software School</title>
-</head>
+  <head>
+    <!-- always place the bootstrap stylesheet link BEFORE my stylesheet as shown below-->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rick's Music History</title>
+    <meta charset="utf-8">
+   
+  </head>
 
-<body>
-  <!-- <nav class="nav">
-    <ul>
-      <li class="view">View Music</li>
-      <li class="add"><a href="#">Add Music</a></li>
-      <li class="profile"><a href="#">Profile</a></li>
-    </ul>
-  </nav>
-   -->
-<div class="flex-container">
- 
-<!--  this is the navigation bar -->
- <nav class="flex-item">
-    <ul>
-      <li class="view">View Music</li>
-      <li class="add"><a href="#">Add Music</a></li>
-      <li class="profile"><a href="#">Profile</a></li>
-    </ul>
-  </nav> 
-  
-<!--  this is the left side content -->
-    <section class="flex-item left_sidebar">
-      <div>
-        <label>Song length:</label>
-          <br>
-          <form class="picks">
-            <input class= "picks" type="range" min="0.0" max="08.0" step="0.1" value="04.0">
-          </form>
-          <br>
-        <label>Artist:</label>
+  <body> 
+    <div class="container-fluid">
+    <!--  this is the navigation bar -->
+    <div class="row">
+      <div class="col-sm-10, col-md-12">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#">Music History</a></li>
+          <li><a href="#">View Music</a></li>
+          <li><a href="addMusic">Add Music</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-3, col-md-3">
+        <br>  
         <br>
-        <select class="artist">
-          <option value="label" label="Christina Aquilera"></option>
-          <option value="label" label="Bob Seger">
-          </option>
-          <option value="label" label="Madonna">
-          </option>
-          <option value="label" label="Taylor Swift"></option>
-          <option value="label" label="Pat Benatar"></option>
-        </select>
-      </div>
-      <div>
         <br>
-        <label>Album:</label>
+        <!-- Artist filter button -->       
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Filter by Artist <span class="caret"></span>
+          </button>
+          <ul id="pickArtist" class="dropdown-menu">
+            <!--  This area populates dropdown to select an artist -->          
+          </ul>
+        </div>
         <br>
-        <select class="album">
-          <option value="label" label="Back to Basics"></option>
-          <option value="label" label="Ultimate Hits: Rock & Roll Never Forgets"></option>
-          <option value="label" label="Rebel Heart"></option>
-          <option value="label" label="1989"></option>
-          <option value="label" label="Crimes of Passion"></option>          
-        </select>
-      </div>
-      <br>
-    <label>Genre:</label>
-      <div class="genre">
-        <form action="#">
-          <table>
-            <tr>
-              <td>
-                <input type="checkbox" name="Rock" value="Rock">Rock
-                <br>
-                <input type="checkbox" name="Pop" value="Pop">Pop
-                <br>
-                <input type="checkbox" name="Country" value="Country">Blues
-                <br>
-              </td>
-              <td>
-                <input type="checkbox" name="Classical" value="Classical">Classical
-                <br>
-                <input type="checkbox" name="Jazz" value="Jazz">Jazz
-                <br>
-                <input type="checkbox" name="Hip hop" value="Hip hop">Hip hop
-                <br>
-              </td>
-            </tr>
-          </table>
-        </form>
-      </div>
-      <br>
-      <div class="criteria">
-        <form action="#">
-          <input class="filter" type="button" name="filter" value="Filter">
-        </form>
-      </div>
-    </section>
-  
-  <!-- this is the right side content  -->
-  
-    <section class="flex-item right_sidebar">
-      <div id="newSongs" class="songs">
+        <br>
+        <!-- Album filter button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Filter by Album <span class="caret"></span>
+          </button>
+          <ul id="pickAlbum" class="dropdown-menu">
+              <!-- This area populates dropdown to select an album -->
+          </ul>
+        </div>
+            
+  <!-- Look at placing in bootstrap columns rather than table so that they will collapse -->
+        <br>
+        <br>
+        <div>
+          <button type="button" class="btn btn-default">Reset</button>
+        </div>
+      </div>        
+      <div class="col-md-8">
+        <div id="newSongs" class="songs">
 
-          <!-- This is the area that will be populated with songs -->
+              <!-- This is the area that will be populated with songs -->
 
+        </div>
+        <!-- <div class="more">
+        <button id="more">More Songs</button>
+        </div> -->
       </div>
-      <div class="more">
-        <button id="more">More</button>
-      </div>
-    </section>
-
-<script src="./bower_components/jquery/dist/jquery.min.js"></script>
-<!-- <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
-<script data-main="javascripts/main" src="bower_components/requirejs/require.js"></script>
-<!-- <script src="javascripts/songList.js"></script>  -->
-</div>
-</body>
+    </div>
+   
+    <script data-main="javascripts/main" src="bower_components/requirejs/require.js"></script> 
+  </body>
 </html>
+
+
+      
 
 

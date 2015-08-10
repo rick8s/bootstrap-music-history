@@ -5,7 +5,8 @@
 			"title": "Save Me From Myself",
 			"artist": "Christina Aquilera",
 			"album": "Back To Basics",
-			"genre": "Contemporary R&B"
+			"genre": "Contemporary R&B",
+			"year": "2006"
 
 			},
 		{
@@ -13,7 +14,8 @@
 			"title": "Out Of The Woods",
 			"artist": "Taylor Swift",
 			"album":  "1989",
-			"genre": "Synthpop"
+			"genre": "Synthpop",
+			"year": "2014"
 
 			},
 
@@ -21,7 +23,8 @@
 			"title": "Doing The Best I Can",
 			"artist": "Stevie Nicks",
 			"album": "The Other Side of The Mirror",
-			"genre": "Soft Rock"
+			"genre": "Soft Rock",
+			"year": "1989"
 
 			},
 
@@ -29,7 +32,8 @@
 			"title": "Unapologetic Bitch",
 			"artist": "Madonna",
 			"album": "Rebel Heart",
-			"genre": "Pop"
+			"genre": "Pop",
+			"year": "2015"
 
 			},
 
@@ -37,7 +41,8 @@
 			"title": "We've Got Tonight",
 			"artist": "Bob Seger",
 			"album": "Ultimate Hits: Rock and Roll Never Forgets",
-			"genre": "Rock"
+			"genre": "Rock",
+			"year": "2011"
 
 		}
 

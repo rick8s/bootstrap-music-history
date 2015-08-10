@@ -1,43 +1,24 @@
-.flex-container {
-  padding: 0;
-  margin: 0px;
-  list-style: none;
-  display: flex;
-  flex-flow: row wrap;
-}
 
-nav {
-  /*position: fixed;*/
-  display: inline;
-  flex: 1 100%;
-  border: 2px solid black;
-  background-color: #ffb4b0;
-  width: 98.3%;
-}
-
-nav ul li {
-  display: inline;
-  flex: 1 100%;
-}
-
-nav li + li:before{
+/*.nav li + li:before{
     content: " | ";
     padding: 0 5px;
 }
+*/
+
 
 
 .left_sidebar {
   text-align: ;
 }
 
-
+/*
 .left_sidebar {
   flex-grow: 1;
   margin: 10px 10px 0 0;
   padding: 15px;
   background-color: #4dd7fa;
   border: 2px solid black;
-}
+}*/
 
 .artist {
   width: 80%;
@@ -51,33 +32,33 @@ nav li + li:before{
   text-align: center;
 }
 
-.right_sidebar {
+/*.right_sidebar {
   flex-grow: 3;
   margin: 10px 0 0 0;
   padding: 15px 15px 15px 15px;
   background-color: #fefac0;
   border: 2px solid black;
   text-align: left;
-}
+}*/
 
 .right_sidebar {
   color: #785616;
 }
 
 
-.songs li {
+.songs {
   display: inline;
   background-color: linen;
   padding: 3px;
   border-radius: 5px;
 }
 
+ul {
+
 .songs li + li:before{
     content: " | ";
     padding: 0 15px;
 }
-
-ul {
   list-style-type: none;
 }
 

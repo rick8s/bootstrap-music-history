@@ -4,8 +4,9 @@
 		{
 			"title": "The Heart of Rock And Roll",
 			"artist": "Huey Lewis and the News",
-			"album": "Back To Basics",
-			"genre": "Rock"
+			"album": "Sports",
+			"genre": "Rock",
+			"year": "1984"
 
 			},
 		{
@@ -13,7 +14,8 @@
 			"title": "Miss Misery",
 			"artist": "Nazareth",
 			"album": "Hair of the Dog",
-			"genre": "Hard Rock"
+			"genre": "Hard Rock",
+			"year": "1975"
 
 			},
 
@@ -21,7 +23,8 @@
 			"title": "Hells Bells",
 			"artist": "AC/DC",
 			"album": "Back in Black",
-			"genre": "Hard Rock"
+			"genre": "Hard Rock",
+			"year": "1980"
 
 			},
 
@@ -29,7 +32,8 @@
 			"title": "Fortunate Son",
 			"artist": "Credence Clearwater Revival",
 			"album": "Willy and the Poor Boys",
-			"genre": "Blues Rock"
+			"genre": "Blues Rock",
+			"year": "1969"
 
 			},
 
@@ -37,7 +41,8 @@
 			"title": "I Wish You Were There",
 			"artist": "REO Speedwagon",
 			"album":"Hi Infidelity",
-			"genre": "Rock"
+			"genre": "Rock",
+			"year": "1980"
 
 		}
 

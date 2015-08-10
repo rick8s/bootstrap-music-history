@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <!-- always place the bootstrap stylesheet link BEFORE my stylesheet as shown below-->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+   <!--  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta charset="utf-8">
+    <title>Rick's Music History</title>
+  </head>
+
+  <body> 
+    <div id="wrap" class="container-fluid">
+      <div class="row">
+        <div class="col-md-6"> 
+
+      <!--  this is the navigation bar -->
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">View Music</a></li>
+            <li><a href="#">Add Music</a></li>
+            <li><a href="#">Profile</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- this is the lefthand section -->
+
+      <div class="row">
+        <div class="col-md-4">
+          <!-- Song Length below -->
+          <div class="row">
+            <div class="col-md-12"> 
+              <!-- Length goes here -->
+            </div>
+          </div>
+              <!-- Artist Below -->
+          <div class="row">
+            <div class="col-md-12">
+            <!-- Artist -->
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Artists:
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                <li role="presentation"><a role="menuitem" href="#">Christina Aquilera</a></li>
+                <li role="presentation"><a role="menuitem" href="#">Huey Lewis</a></li>
+                <li role="presentation"><a role="menuitem" href="#">Madonna</a></li>
+                <!-- <li role="presentation" class="divider"></li> -->
+                <li role="presentation"><a role="menuitem" href="#">Credence Clearwater Revival</a></li>
+                <li role="presentation"><a role="menuitem" href="#">AC / DC</a></li>
+                <li role="presentation"><a role="menuitem" href="#">Bob Seger</a></li>
+                <li role="presentation"><a role="menuitem" href="#">Taylor Swift</a></li>
+                <li role="presentation"><a role="menuitem" href="#">Stevie Nicks</a></li>
+                <li role="presentation"><a role="menuitem" href="#">REO Speedwagaon</a></li>
+                <li role="presentation"><a role="menuitem" href="#">Nazareth</a></li>
+              </ul>
+            </div>
+            </div>
+          </div>
+            <!-- Album Below -->
+          <div class="row">
+            <div class="col-md-12">
+              <!-- Album -->
+            </div>
+          </div>
+
+              <!-- Below is the Genre selections -->
+          <div class="row">              
+            <div class="col-md-6">
+              <!-- Genre Here -->
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Rock</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Pop</label>
+              </div>
+              <div class="checkbox disabled">
+                <label><input type="checkbox" value="" disabled>Synthpop</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <!-- Genre Here -->
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Soft Rock</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Jazz</label>
+              </div>
+              <div class="checkbox disabled">
+                <label><input type="checkbox" value="" disabled>Hip Hop</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Below is the Righthand side where songs will populate -->
+
+          <div class="col-md-9">
+            <div id="newSongs" class="songs">
+
+                  <!-- This is the area that will be populated with songs -->
+
+            </div>
+            <div class="more">
+              <button id="more">More Songs</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+    <script data-main="javascripts/main" src="bower_components/requirejs/require.js"></script> 
+  </body>
+</html>
+
+
+      
+
+

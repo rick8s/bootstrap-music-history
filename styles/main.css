@@ -1,0 +1,70 @@
+body {
+  color: black;
+  background: url(../abstract-music-background.jpg) repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.songs {
+  color: navy;
+  border-radius: 2px;
+  /*text-align: center;*/ }
+
+.songs li + li:before {
+  content: " | ";
+  padding: 0 15px;
+  list-style-type: none; }
+
+.songs p {
+  font-size: 1.3em;
+  font-family: sans-serif;
+  color: #bedc6d;
+  border-radius: 3px; }
+
+.song li {
+  display: inline-block; }
+
+.remove {
+  font-size: .6em;
+  margin-bottom: 4px;
+  border-radius: 3px; }
+
+.col-md-3 {
+  color: #FFA680; }
+
+.artist {
+  width: 80%; }
+
+.album {
+  width: 80%; }
+
+.criteria {
+  text-align: center; }
+
+#addNewSong {
+  color: #FFA680; }
+
+.btn-default {
+  background-color: #FFA680;
+  border-color: #8E2A00; }
+
+.nav-tabs > li.active > a {
+  background-color: transparent;
+  color: #DD2B2B;
+  border-color: transparent;
+  font-family: Zapf Chancery, cursive;
+  font-size: 2.0em; }
+
+.nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover
+.nav-tabs {
+  border-bottom: none; }
+
+.table > tbody > tr > td {
+  border-top: none;
+  padding: 20px; }
+
+.select {
+  background-color: #DD612B; }
+
+/*# sourceMappingURL=main.css.map */

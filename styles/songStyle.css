@@ -1,0 +1,30 @@
+.songs {
+  display: inline-block;
+  background-color: linen;
+  padding: 3px;
+  border-radius: 5px; }
+
+.songs li + li:before {
+  content: " | ";
+  padding: 0 15px;
+  list-style-type: none; }
+
+.songs p {
+  font-size: 1.3em;
+  font-family: sans-serif;
+  color: #785616;
+  padding: 5px 5px 5px 30px;
+  border-radius: 25px; }
+
+.song ul {
+  display: inline-block; }
+.song li {
+  display: inline-block; }
+.song p:nth-child(2n+0) {
+  background-color: #FFF5EE; }
+.song p:nth-child(2n+1) {
+  background-color: #F5FFFA; }
+.song p:first-of-type {
+  font-weight: bold; }
+
+/*# sourceMappingURL=songStyle.css.map */

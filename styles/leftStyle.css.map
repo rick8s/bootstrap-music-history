@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAU;EACR,gBAAgB,EAAE,OAAO;EACzB,MAAM,EAAE,eAAe;;AAGzB,OAAQ;EACN,KAAK,EAAE,GAAG;;AAGZ,MAAO;EACL,KAAK,EAAE,GAAG;;AAGZ,SAAU;EACR,UAAU,EAAE,MAAM",
+"sources": ["../sass/leftStyle.scss"],
+"names": [],
+"file": "leftStyle.css"
+}

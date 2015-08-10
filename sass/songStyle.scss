@@ -1,0 +1,57 @@
+
+.col-md-9 {
+  // border: 2px solid black;
+}
+
+.songs {
+  
+}
+
+.songs {
+  color: $color-secondary-1-1;
+  // background-color: $color-primary-1;
+  // padding: 3px;
+  border-radius: 2px;
+  text-align: center;
+  // border: 2px solid black;
+}
+
+
+.songs li + li:before {
+    content: " | ";
+    padding: 0 15px;
+    list-style-type: none;
+    }
+
+.songs p {
+  font-size: 1.3em;
+  font-family: sans-serif;
+  color: #785616;
+  // padding: 5px 5px 5px 30px;
+  border-radius: 3px;
+ }
+
+
+
+
+
+.song { 
+
+      li {
+      display: inline-block;
+    } 
+
+    //   p:first-of-type {
+    //   font-weight: bold;
+    // }
+ }
+
+.remove {
+  font-size: .6em;
+  margin-bottom: 4px;
+  border-radius: 3px;
+ }
+
+ // .more {
+ //  background-color: lightgreen;
+ // }
