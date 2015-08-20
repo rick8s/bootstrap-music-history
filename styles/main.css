@@ -8,22 +8,23 @@ body {
 
 .songs {
   color: navy;
-  border-radius: 2px;
-  /*text-align: center;*/ }
+  border-radius: 2px; }
 
 .songs li + li:before {
   content: " | ";
   padding: 0 15px;
   list-style-type: none; }
 
-.songs p {
-  font-size: 1.3em;
+.song p {
+  font-size: .85em;
   font-family: sans-serif;
-  color: #bedc6d;
+  color: #56f55e;
   border-radius: 3px; }
 
-.song li {
-  display: inline-block; }
+.song {
+  border-radius: 2px; }
+  .song li {
+    display: inline-block; }
 
 .remove {
   font-size: .6em;

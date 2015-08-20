@@ -1,5 +1,6 @@
-  {{#each songs}}
+  {{#each albums}}
   
-    <li value="{{album}}"><a href="#">{{album}}</a></li>
+    <li class="album" value="{{this}}"><a href="#">{{this}}</a></li>
+    {{log "Here's a thing"}}
         
   {{/each}}

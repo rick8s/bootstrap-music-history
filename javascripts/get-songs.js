@@ -3,7 +3,7 @@ define(["jquery", "q"], function($, Q) {
   var deferred = Q.defer();
 
   $.ajax({
-    url: "./songs2.json"
+    url: "./songs.json"
   })
   .done(function(songs_data) {
     deferred.resolve(songs_data);
